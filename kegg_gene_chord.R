@@ -1,3 +1,11 @@
+# =============================================================================
+# KEGG pathway - gene chord diagram
+# Links the top enriched KEGG pathways (Enrichr) to their member DEGs,
+# coloured by log2 fold change. Panel label "C" corresponds to the figure.
+# Inputs:
+#   DEGs_86_final.csv       (columns 'gene', 'log2FoldChange')
+#   pathways_enrichr.csv    (Enrichr KEGG export; columns incl. Term, Genes, Adjusted.P.value)
+# =============================================================================
 library(circlize)
 library(ComplexHeatmap)
 library(dplyr)
@@ -5,7 +13,7 @@ library(tidyr)
 library(RColorBrewer)
 library(grid)
 
-deg <- read.csv("DESeq2_significant_geneslog3.csv")
+deg <- read.csv("DEGs_86_final.csv")
 enrichr <- read.csv("pathways_enrichr.csv")
 
 top_pathways <- enrichr %>%
