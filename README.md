@@ -109,7 +109,7 @@ source("kegg_gene_chord.R")
 | Threshold | DEGs |
 |-----------|------|
 | &#124;log2FC&#124; ≥ 1 (discovery set) | 989 |
-| &#124;log2FC&#124; ≥ 2 | 294 |
+| &#124;log2FC&#124; ≥ 2 | 409 |
 | **&#124;log2FC&#124; ≥ 3 (high-confidence)** | **86** (24 up, 62 down) |
 
 The |log2FC| ≥ 3 output (`DESeq2_significant_geneslog3.csv`) is the 86 high-confidence DEG set used for all downstream network, enrichment, hub-gene, and drug-mining steps, and is also provided as **`DEGs_86_final.csv`** (identical to Supplementary Table S2).
@@ -125,7 +125,7 @@ The |log2FC| ≥ 3 output (`DESeq2_significant_geneslog3.csv`) is the 86 high-co
 
 ## Biological significance
 
-The analysis complements the sarcomere-centric view of HCM by highlighting non-sarcomeric processes — impaired metallothionein-mediated zinc homeostasis and activated innate immunity/NET formation — supporting a dual-pathology model and nominating targets for experimental validation.
+The analysis complements the sarcomere-centric view of HCM by highlighting non-sarcomeric processes, impaired metallothionein-mediated zinc homeostasis and activated innate immunity/NET formation, supporting a dual-pathology model and nominating targets for experimental validation.
 
 ---
 
