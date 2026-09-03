@@ -15,7 +15,7 @@ Hypertrophic Cardiomyopathy (HCM) is the most prevalent monogenic cardiac disord
 - Identify differentially expressed genes (DEGs) in HCM myocardial tissue
 - Elucidate dysregulated biological pathways (GO / KEGG)
 - Construct a protein–protein interaction (PPI) network and identify hub genes
-- Mine curated drug–target knowledge (DrugBank) for candidate compounds against the prioritised hub genes
+- Mine curated drug–target knowledge (DrugBank) for candidate compounds against the prioritized hub genes
 
 ## Dataset
 
